@@ -4,7 +4,7 @@
   "description": "Just testing with express",
   "main": "index.js",
   "scripts": {
-    "start": "node dist/server.js",
+    "start": "docker ps -a && node dist/server.js",
     "build": "tsc",
     "dev": "nodemon",
     "docker:build": "docker-compose up --build",
